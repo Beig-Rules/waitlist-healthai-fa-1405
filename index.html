@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>لیست انتظار HealthAI | هوش مصنوعی سلامت فارسی</title>
+<style>
+:root { --bg:#0a0a0a; --fg:#f5f5f5; --muted:#888; }
+body { font-family: system-ui,sans-serif; background:var(--bg); color:var(--fg); margin:0; text-align:center; }
+.hero { padding:6rem 2rem; }
+h1 { font-weight:300; font-size:2.8rem; }
+form { margin:2rem auto; max-width:400px; }
+input { width:100%; padding:1rem; margin:0.5rem 0; background:#111; color:#fff; border:1px solid #333; }
+button { width:100%; padding:1rem; background:#fff; color:#000; border:none; cursor:pointer; font-size:1rem; }
+.toggle { position:fixed; top:1rem; left:1rem; background:#222; color:#fff; border:1px solid #444; padding:0.5rem 1rem; }
+.light { --bg:#fafafa; --fg:#111; }
+.light input { background:#fff; color:#111; border-color:#ddd; }
+</style>
+</head>
+<body>
+<button class="toggle" onclick="document.body.classList.toggle('light')">تم</button>
+<div class="hero">
+<h1>HealthAI</h1>
+<p style="color:var(--muted);font-size:1.2rem;">دستیار هوش مصنوعی سلامت به زبان فارسی. تحلیل علائم، پیگیری درمان و مشاوره اولیه هوشمند.</p>
+<form onsubmit="alert('ثبت شد! به زودی خبر می‌دهیم.');return false;">
+<input type="email" placeholder="ایمیل شما" required>
+<button type="submit">پیوستن به لیست انتظار</button>
+</form>
+<p style="color:var(--muted);font-size:0.9rem;">تاکنون ۱۲۴۷ نفر ثبت‌نام کرده‌اند. دسترسی زودهنگام برای ۱۰۰ نفر اول.</p>
+</div>
+</body>
+</html>
